@@ -34,7 +34,7 @@ const SinglePlan = () => {
             <div className=''>
                 {/* avatar component */}
                 <div className="avatar flex justify-center">
-                    <div className="w-[150px] h-[150px] rounded-full ring ring-white ring-offset-base-100 bg-orange-600 ring-offset-4 mb-[-80px]">
+                    <div className="w-[150px] h-[150px] rounded-full ring ring-white ring-offset-base-100 bg-purple-600 ring-offset-4 mb-[-80px]">
                         <div className='flex justify-center items-center h-full text-white'>
                             <div>
                                 <h4>Starts from</h4>
@@ -55,7 +55,7 @@ const SinglePlan = () => {
                             <h6>Breakfast & Lunch for Everyone</h6>
                             <h6>FREE Gifts for Kidsd</h6>
                         </div>
-                        <button className="btn btn-outline btn-secondary mt-8 rounded-full">Glass button</button>
+                        <button className="btn btn-outline btn-secondary mt-8 rounded-full">Order Now</button>
                     </div>
                 </div>
             </div>

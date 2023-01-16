@@ -31,11 +31,20 @@ const Service = () => {
                 <img src={map} alt="" width={30} /> 
                 <p>32-B, Envato St, Themeforest Ave, CA</p>
                 </div>
-            <p>Consectetur elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqul enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            <p className='my-4'>Consectetur elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqul enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+                Excepteur sint occaecat cupidata non proident sunt in culpa qui officia deserunt mol lit anim id est laborum tempore laboris volputate..</p>
+            <p className='my-4'>Consectetur elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqul enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+                Excepteur sint occaecat cupidata non proident sunt in culpa qui officia deserunt mol lit anim id est laborum tempore laboris volputate..</p>
+            <p className='my-4'>Consectetur elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqul enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+                Excepteur sint occaecat cupidata non proident sunt in culpa qui officia deserunt mol lit anim id est laborum tempore laboris volputate..</p>
+            <p className='my-4'>Consectetur elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqul enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
                 Excepteur sint occaecat cupidata non proident sunt in culpa qui officia deserunt mol lit anim id est laborum tempore laboris volputate..</p>
                 <div className='my-20'>
-                    <h2 className='text-center text-4xl font-semibold mb-10'>Previous Events <span className='text-orange-700'> gellary</span></h2>
+                    <h2 className='text-center text-4xl font-semibold mb-10'>Previous Events <span className='text-purple-600'> gellary</span></h2>
                     <div className="grid grid-cols-2 gap-3">
             <img src={image} className='' alt="" />
             <img src={image2} className='' alt="" />
@@ -43,6 +52,14 @@ const Service = () => {
             <img src={image4} className='' alt="" />
             </div>
                 </div>
+            </div>
+               <div className="grid-col-1">
+               <div className="grid grid-cols-2 gap-2">
+            <img src={image} className='' alt="" />
+            <img src={image2} className='' alt="" />
+            <img src={image3} className='' alt="" />
+            <img src={image4} className='' alt="" />
+            </div>
             </div>
             </div>
         </div>

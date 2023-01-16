@@ -15,7 +15,7 @@ const ComingEvents = () => {
     return (
        <div className='container px-8 lg:px-36 mt-32'>
          <div className="text-center">
-         <h2 className='text-center text-4xl font-semibold mb-4'><span className='text-orange-600'>DreamEvants</span> Upcoming Events</h2>
+         <h2 className='text-center text-4xl font-semibold mb-4'><span className='text-purple-600'>DreamEvants</span> Upcoming Events</h2>
          <p className='text-xl mb-8'>We make your events smart & impactful by personalised event management services.</p>
          </div>
         {/* <div> */}

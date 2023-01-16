@@ -6,10 +6,11 @@ import Specialists from '../../Component/Service/Specialists/Specialists';
 import Brands from '../../Component/Service/Brands/Brands';
 
 
+
 const Services = () => {
     return (
         <div>
-            <ServiceBanner/>
+            <ServiceBanner title="Our services" page="Service" />
             <Specialists/>
             <ComingEvents/>
             <PricingPlans/>
