@@ -26,7 +26,7 @@ const Gallery = () => {
   ]
     return (
             <div className="my-10">
-              <div className='grid grid-cols-2 gap-10 mx-10 rounded-tr-lg rounded-bl-lg'>
+              <div className='lg:grid grid-cols-2 gap-10 mx-10 rounded-tr-lg rounded-bl-lg'>
              {
               data.map((item) =>  <GalleryBg key={item._id} item={item}/>)
              }

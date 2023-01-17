@@ -1,4 +1,6 @@
 import React from 'react';
+import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import logo from '../../../Images/logo-1.jpg';
 import logo1 from '../../../Images/logo-2.jpg';
 
@@ -20,34 +22,37 @@ const Brands = () => {
       _id: 4,
       image: logo1,
     },
+    {
+      _id: 5,
+      image: logo,
+    },
+    {
+      _id: 6,
+      image: logo1,
+    },
   ]
+  
     return (
+      
         <div className="px-8 lg:px-36 mt-32">
         <div className=" max p-4 space-x-4">
   <div className="flex">
+  <Swiper slidesPerView={3} slidesPerColumn={2} spaceBetween={30} pagination={{
+  "clickable": true
+}} className="mySwiper">
+ 
     {
       image.map(item => 
+        <SwiperSlide>
         <img src={item.image} className="mx-12" />
+      </SwiperSlide> 
         )
       }
+      </Swiper>
   </div> 
-  {/* <div className="carousel-item">
-    
-  </div> 
-  <div className="carousel-item">
-    <img src="http://demo.ovathemes.com/dvents/wp-content/uploads/2017/06/logo-2.png" className="mx-12" />
-  </div> 
-  <div className="carousel-item">
-    <img src="http://demo.ovathemes.com/dvents/wp-content/uploads/2017/06/logo-5.png" className="mx-12" />
-  </div> 
-  <div className="carousel-item">
-    <img src="http://demo.ovathemes.com/dvents/wp-content/uploads/2017/06/logo-1.png" className="mx-12" />
-  </div> 
-  <div className="carousel-item">
-    <img src="http://demo.ovathemes.com/dvents/wp-content/uploads/2017/06/logo-1.png" className="mx-12" />
-  </div>  */}
 </div>
 </div>
+
     );
 };
 

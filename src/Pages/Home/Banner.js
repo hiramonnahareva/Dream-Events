@@ -64,6 +64,8 @@ const Banner = () => {
         <>
         <Swiper
           spaceBetween={30}
+          loop={true}
+        loopFillGroupWithBlank={true}
           centeredSlides={true}
         autoplay={{
           delay: 2500,
@@ -81,7 +83,7 @@ const Banner = () => {
          data.map(({img, subTitle, title, btn1,btn2 }) => 
           <SwiperSlide>
             <img className='relative' src={img} />
-            <div data-aos="fade-right" className='absolute top-44'> 
+            <div data-aos="fade-right" className='absolute lg:top-44 top-10'> 
             <div className='text-center mx-60'>
             <i className='text-[18px] text-white'>{subTitle}</i>
             <h2 className='text-6xl mt-6 font-bold text-white'>{title}</h2>
