@@ -18,6 +18,8 @@ import "swiper/css/pagination";
 // import required modules
 import {Autoplay, EffectFade, Navigation, Pagination } from "swiper";
 import Aos from 'aos';
+import BigBtn from '../../Component/BigBtn';
+import BigOutlineBtn from '../../Component/BigOutlineBtn';
 
 const Banner = () => {
   useEffect(()=> {
@@ -30,24 +32,31 @@ const Banner = () => {
      img: image,
     subTitle: "Birthday Event Management Specialists",
     title: "CELEBRATE YOUR EVENTSTHAT LASTS LONGER",
+    btn1: "Ask for a quote",
+    btn2: "Read more",
   },
    {
      _id: 2,
      img: image1,
     subTitle: "We are the Event Management Specialists",
     title: "WE PERSONALIZE YOUR WEDDING EVENTS",
+    btn1: "Our Future",
   },
    {
      _id: 3,
      img: image2,
     subTitle: "Birthday Event Management Specialists",
     title: "CELEBRATE YOUR EVENTSTHAT LASTS LONGER",
+    btn1: "Ask for a quote",
+    btn2: "Read more",
+    
   },
    {
      _id: 4,
      img: image3,
     subTitle: "We are the Event Management Specialists",
     title: "WE PERSONALIZE YOUR WEDDING EVENTS",
+    btn1: "Our Future",
   },
           
   ]
@@ -69,13 +78,22 @@ const Banner = () => {
           className="mySwiper"
         >
          {
-         data.map(item => 
+         data.map(({img, subTitle, title, btn1,btn2 }) => 
           <SwiperSlide>
-            <img className='relative' src={item.img} />
-            <div data-aos="fade-right" className='absolute top-52'> 
+            <img className='relative' src={img} />
+            <div data-aos="fade-right" className='absolute top-44'> 
             <div className='text-center mx-60'>
-            <i className='text-[18px] pb-12 text-white'>{item.subTitle}</i>
-            <h2 className='text-6xl mt-10 font-bold text-white'>{item.title}</h2>
+            <i className='text-[18px] text-white'>{subTitle}</i>
+            <h2 className='text-6xl mt-6 font-bold text-white'>{title}</h2>
+            <div className='flex justify-center mt-5'>
+            <div className=' border-l-4 h-8 mb-4 border-purple-600'></div>
+            </div>
+            <div className='mt-7 flex gap-4 justify-center'>
+            <BigBtn className='ml-9' title={btn1}/>
+            {
+              btn2 && <BigOutlineBtn title={btn2}/>
+            }
+            </div>
             </div>
             </div>
 

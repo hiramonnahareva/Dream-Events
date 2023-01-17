@@ -7,6 +7,7 @@ import image2 from '../Images/ServiceImages/birthday-4.jpg';
 import image3 from '../Images/ServiceImages/birthday-3.jpg';
 import image4 from '../Images/ServiceImages/birthday-1.jpg';
 import image5 from '../Images/ServiceImages/dance-1.jpg';
+import SmallBtn from "../Component/SmallBtn";
 
 const Footer = () => {
   return (
@@ -18,7 +19,7 @@ const Footer = () => {
     {/* <span className="footer-title">Legal</span>  */}
     <a className="link no-underline">Terms of use</a> 
     <a className="link no-underline text-gray-400 block">Aorem ipsum dolor sit amet elit sed lum tempor incididunt ut labore el dolore alg minim veniam quis nostrud lorem psum dolor sit amet sed incididunt.</a> 
-    <button className="flex mt-6 gap-2 items-center border-[1px] px-6 py-2 rounded-full border-gray-200"><div className='border-b-[4px] w-6 border-purple-600'></div>Read More</button>
+   <SmallBtn/>
   </div> 
   <div className="mr-10">
     <a className="text-[17px] font-semibold items-end gap-2 flex mb-4" href=""><div className='border-b-[4px] w-6 mb-1 border-purple-600'></div>Keep In Touch</a>
