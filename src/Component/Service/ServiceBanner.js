@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const ServiceBanner = ({title, page}) => {
     return (
-            <div className=' relative'>
+            <div className='relative'>
              <img className='h-44 lg:h-full' src={banner} alt="" />
            <div className='absolute lg:top-[30%] top-[20%] left-[50%]  lg:ml-[-100px] ml-[-80px]'>
             <div className='flex justify-center'>
