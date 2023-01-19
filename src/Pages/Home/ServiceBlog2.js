@@ -22,6 +22,7 @@ const ServiceBlog2 = () => {
         },
     ]
     return (
+        <div className='bg-gray-100 py-5'>
         <div className='lg:flex lg:m-32 m-10 gap-10 items-center justify-center'>
              <div className='flex-1 mx-auto'>
                 <img src={image} width='450px' alt="" />
@@ -39,6 +40,7 @@ const ServiceBlog2 = () => {
                 
             </div>
                  
+        </div>
         </div>
     );
 };

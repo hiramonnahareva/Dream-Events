@@ -82,14 +82,16 @@ const ImgGallery = () => {
            }
     }, [tag])
     return (
-        <div className='my-20'>
-             <div className="flex mb-5 justify-center gap-4">
+        <div className='my-20 lg:mx-32 mx-5'>
+            <h2 className='text-4xl font-semibold'><span className='text-purple-600'>Event</span> Services</h2>
+            <h3 className='text-[18px] mt-2 mb-6'>We make your events smart & impactful by personalised event management services</h3>
+             <div className="flex mb-5 gap-4">
                             {/* <button className={`button text-[18px] pb-2 text-primary ${tag === 'all' ? 'border-b-2 border-primary' : ''}`} onClick={()=> setAllimgData(imgData)}>All</button> */}
                             <button className={`button text-[18px] pb-2 text-primary ${tag === 'Wedding' ? 'border-b-2 border-primary' : ''}`} onClick={()=> setTag('Wedding')}>Wedding Events</button>
                             <button className={`button text-[18px] pb-2 text-primary ${tag === 'Birthday' ? 'border-b-2 border-primary' : ''}`} onClick={()=> setTag('Birthday')}>Birthday Events</button>
                             <button className={`button text-[18px] pb-2 text-primary ${tag === 'Social' ? 'border-b-2 border-primary' : ''}`} onClick={()=> setTag('Social')}>Social Events</button>
                         </div>
-                        <div className="lg:mx-32 mx-5 grid gap-[1px] lg:grid-cols-4 grid-cols-2">
+                        <div className=" grid gap-[1px] lg:grid-cols-4 grid-cols-2">
                         {
                             allimgData.map(item => (
                                 <div key={item._id} className='relative'>

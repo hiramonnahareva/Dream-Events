@@ -1,5 +1,6 @@
 import React from 'react';
 import image from '../../Images/bgpattern1.jpg';
+import BigBtn from '../BigBtn';
 import GalleryBg from './GalleryBg';
 
 
@@ -25,11 +26,18 @@ const Gallery = () => {
     },
   ]
     return (
+      <div className=''>
+        <div className='flex gap-[60px] text-xl font-semibold text-gray-700 my-20 justify-center items-center'>See Our Full Gallery of Events!
+        <BigBtn title='View Full Gallery'/>
+        </div>
+        
+      
             <div className="my-10">
               <div className='lg:grid grid-cols-2 gap-10 mx-10 rounded-tr-lg rounded-bl-lg'>
              {
               data.map((item) =>  <GalleryBg key={item._id} item={item}/>)
              }
+            </div>
             </div>
             </div>
     );

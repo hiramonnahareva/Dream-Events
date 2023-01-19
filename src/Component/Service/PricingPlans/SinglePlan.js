@@ -27,7 +27,7 @@ const SinglePlan = () => {
                             <h6>Breakfast & Lunch for Everyone</h6>
                             <h6>FREE Gifts for Kidsd</h6>
                         </div>
-                        <button className="btn btn-outline btn-secondary mt-8 rounded-full">Glass button</button>
+                        <button className="btn btn-outline px-8 btn-primary hover:text-white mt-8 rounded-full">Glass button</button>
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@ const SinglePlan = () => {
                             <h6>Breakfast & Lunch for Everyone</h6>
                             <h6>FREE Gifts for Kidsd</h6>
                         </div>
-                        <button className="btn btn-outline btn-secondary mt-8 rounded-full">Order Now</button>
+                        <button className="btn btn-outline px-8 btn-primary hover:text-white mt-8 rounded-full">Order Now</button>
                     </div>
                 </div>
             </div>
@@ -83,7 +83,7 @@ const SinglePlan = () => {
                             <h6>Breakfast & Lunch for Everyone</h6>
                             <h6>FREE Gifts for Kidsd</h6>
                         </div>
-                        <button className="btn btn-outline btn-secondary mt-8 rounded-full">Glass button</button>
+                        <button className="btn btn-outline px-8 btn-primary hover:text-white mt-8 rounded-full">Glass button</button>
                     </div>
                 </div>
             </div>
