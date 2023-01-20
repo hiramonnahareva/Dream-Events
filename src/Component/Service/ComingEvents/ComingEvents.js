@@ -18,21 +18,16 @@ const ComingEvents = () => {
          <h2 className='text-center text-4xl font-semibold mb-4'><span className='text-purple-600'>DreamEvants</span> Upcoming Events</h2>
          <p className='text-xl mb-8'>We make your events smart & impactful by personalised event management services.</p>
          </div>
-        {/* <div> */}
                  <div className="carousel mx-auto">
            {
-            data.map(service => <SingleEvent key={service.id} service={service}></SingleEvent>)
+            data.map(service => <SingleEvent key={service.id} id={service.id} img={service.img1} title={ service.title }></SingleEvent>)
            }
            </div>
            <div className="flex justify-center w-full py-2 gap-2">
   <a href="#item1" className="btn btn-xs">1</a> 
   <a href="#item4" className="btn btn-xs">2</a> 
   <a href="#item6" className="btn btn-xs">3</a> 
-  {/* <a href="#item2" className="btn btn-xs">2</a> 
-  <a href="#item3" className="btn btn-xs">3</a> 
-  <a href="#item4" className="btn btn-xs">4</a> */}
 </div>
-    {/* </div> */}
    
        </div>
         
