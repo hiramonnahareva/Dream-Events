@@ -1,10 +1,17 @@
 import React from 'react';
+import image from '../../../Images/Group 21.png'
 
 const Featured = () => {
     return (
-        <div className='container px-8 lg:px-36 mt-32'>
-             <h2 className='text-center text-4xl font-semibold mb-4'><span className='text-purple-600'>Services</span> Featured</h2>
+       
+        <div className='relative'>
+        <img src={image} className='relative' alt="" />
+        <div className='absolute top-0 flex justify-center items-center lg:flex-row flex-col'>
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, nihil.</h2>
+            
+
         </div>
+         </div>
     );
 };
 
