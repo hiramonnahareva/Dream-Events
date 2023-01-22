@@ -18,7 +18,7 @@ const Counter = () => {
             <div style={{
                 backgroundImage: `url(${image})`,
                 width: '100%',
-                marginTop: '10px',
+                height: '250px',
                 marginBottom: '10px',
                 color: 'white',
                 paddingTop: '40px',

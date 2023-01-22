@@ -28,7 +28,7 @@ const WhyChoose = () => {
     ]
 
     return (
-        <div className='bg-gray-100 my-20'>
+        <div className='bg-gray-100 mt-20'>
              {/* ---- left section ---- */}
         <div className=' w-full flex justify-center items-center gap-20 lg:flex-row flex-col'>
             <div className='lg:pl-40'>
