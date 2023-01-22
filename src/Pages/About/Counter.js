@@ -18,12 +18,14 @@ const Counter = () => {
             <div style={{
                 backgroundImage: `url(${image})`,
                 width: '100%',
-                height: '250px',
-                marginBottom: '10px',
+                height: '210px',
+                position: 'sticky',
+                // marginBottom: '10px',
                 color: 'white',
-                paddingTop: '40px',
-                paddingBottom: '70px',
+                // paddingTop: '40px',
+                // paddingBottom: '70px',
             }}>
+                <div style={{background: 'rgb(26, 34, 48, 0.65)'}}>
             <div className='flex justify-center items-center lg:flex-row flex-col'>
                
                 
@@ -38,6 +40,7 @@ const Counter = () => {
                 </div>
                 )}
                 
+            </div>
             </div>
             </div>
          </ScrollTrigger>
