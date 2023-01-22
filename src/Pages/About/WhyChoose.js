@@ -29,7 +29,7 @@ const WhyChoose = () => {
 
     return (
         <div className='bg-gray-100 my-20'>
-             {/* ---- top section ---- */}
+             {/* ---- left section ---- */}
         <div className=' w-full flex justify-center items-center gap-20 lg:flex-row flex-col'>
             <div className='lg:pl-40'>
             <h2 className='text-4xl font-semibold mb-4'><span className='text-purple-600'>Services </span> Featured</h2>
@@ -49,6 +49,7 @@ const WhyChoose = () => {
                     )
                }
             </div>
+             {/* ---- Right section ---- */}
             <div className='w-full'>
             <img className='' src={image} alt="" />
         </div>
