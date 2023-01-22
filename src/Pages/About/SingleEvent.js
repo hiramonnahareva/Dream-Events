@@ -4,7 +4,6 @@ const SingleEvent = ({service}) => {
     console.log(service)
     const {img2, title} = service;
     return (
-
       <div className="mx-4">
      <img src={img2} className="h-60" />
         <div className="flex justify-center mt-[-6%]">
