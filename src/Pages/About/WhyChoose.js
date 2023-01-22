@@ -2,6 +2,7 @@ import React from 'react';
 import { MdOutlineEmojiEvents } from 'react-icons/md';
 import { RiCake2Line } from 'react-icons/ri';
 import { TbMicrophone2 } from 'react-icons/tb';
+import image from '../../Images/ServiceImages/birthday-2.jpg';
 
 const WhyChoose = () => {
 
@@ -27,15 +28,15 @@ const WhyChoose = () => {
     ]
 
     return (
-        <div className='my-20'>
+        <div className='bg-gray-100 my-20'>
              {/* ---- top section ---- */}
-        <div className=' w-full px-8 lg:px-36 flex justify-center gap-40  lg:flex-row flex-col'>
-            <div className=''>
+        <div className=' w-full flex justify-center items-center gap-20 lg:flex-row flex-col'>
+            <div className='lg:pl-40'>
             <h2 className='text-4xl font-semibold mb-4'><span className='text-purple-600'>Services </span> Featured</h2>
             <h2 className='mb-6 text-[18px]'>We make your events smart & impactful by personalised event management services.</h2>
                {
                 featured.map(item => 
-                    <div className="mb-10">
+                    <div className="my-10">
                <div className="flex items-center gap-6 text-2xl mb-2">
                 <div className='flex items-center gap-2'>
                 {item.icon}
@@ -48,6 +49,9 @@ const WhyChoose = () => {
                     )
                }
             </div>
+            <div className='w-full'>
+            <img className='' src={image} alt="" />
+        </div>
         </div>
         </div>
     );
