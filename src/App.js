@@ -13,6 +13,7 @@ import NotFound from './Pages/NotFound';
 import Service from './Pages/Services/Service';
 import Services from './Pages/Services/Services';
 import NavBar from './Component/Navbar/NavBar';
+import Contact from './Pages/Contact/Contact';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path='/services' element={<Services/>}></Route>
         <Route path='/service/:id' element={<Service/>}></Route>
         <Route path='/about' element={<About/>}></Route>
+        <Route path='/contact' element={<Contact/>}></Route>
 
         {/* <Route path='/register' element={<Register />}></Route> */}
         {/* <Route path='/login' element={<Login></Login>}></Route> */}

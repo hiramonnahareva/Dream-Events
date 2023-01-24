@@ -34,7 +34,7 @@ const BottomNav = () => {
           <li><Link to=''>News 2</Link></li>
         </ul>
       </li>
-      <li><Link to=''>Contact</Link></li>
+      <li><Link to='/contact'>Contact</Link></li>
       </ul>
     </div>
   
@@ -66,7 +66,7 @@ const BottomNav = () => {
           <li><Link to=''>News 2</Link></li>
         </ul>
       </li>
-      <li><Link to=''>Contact</Link></li>
+      <li><Link to='/contact'>Contact</Link></li>
     </ul>
     {/* --------------- Moblie menu ---------------- */}
     {/* <div class="dropdown">
