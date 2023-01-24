@@ -1,9 +1,10 @@
 import React from 'react';
+import ServiceBanner from '../../Component/Service/ServiceBanner';
 
 const Events = () => {
     return (
         <div>
-            <h2>All Evants</h2>
+            <ServiceBanner title={"Events"} page={"Events"}/>
         </div>
     );
 };
