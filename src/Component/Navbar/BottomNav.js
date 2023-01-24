@@ -22,8 +22,8 @@ const BottomNav = () => {
         </ul>
       </li>
       <li><Link to='/services'>services</Link></li>
-      <li><Link to='/About'>About</Link></li>
-      <li><Link to=''>Events</Link></li>
+      <li><Link to='/about'>About</Link></li>
+      <li><Link to='/events'>Events</Link></li>
       <li tabindex="0">
         <Link to=''>
          News
@@ -54,8 +54,8 @@ const BottomNav = () => {
         </ul>
       </li>
       <li><Link to='/services'>services</Link></li>
-      <li><Link to='/About'>About</Link></li>
-      <li><Link to=''>Events</Link></li>
+      <li><Link to='/about'>About</Link></li>
+      <li><Link to='/events'>Events</Link></li>
       <li tabindex="0">
         <Link to=''>
          News
