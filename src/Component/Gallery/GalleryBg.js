@@ -12,7 +12,7 @@ const GalleryBg = ({item}) => {
             <div className='absolute text-center lg:top-14 top-5 w-full text-white'>
                 <h2 className='text-3xl font-semibold'>{title}</h2>
             <p className='mt-3 mb-9'>{text}</p>
-            <BigOutlineBtn title={btn}/>
+            <BigOutlineBtn title={btn} link={'/contact'}/>
             </div>
             </div>
         </div>

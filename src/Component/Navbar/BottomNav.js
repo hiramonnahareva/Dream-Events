@@ -24,6 +24,7 @@ const BottomNav = () => {
       <li><Link to='/services'>services</Link></li>
       <li><Link to='/about'>About</Link></li>
       <li><Link to='/events'>Events</Link></li>
+      <li><Link to='/events'>Dashbord</Link></li>
       <li tabindex="0">
         <Link to=''>
          News
@@ -39,7 +40,7 @@ const BottomNav = () => {
     </div>
   
   <div class="flex-1">
-    <Link to='/' class="btn btn-ghost normal-case text-xl">daisyUI</Link>
+    <Link to='/' class="btn btn-ghost normal-case text-xl"><span className='text-purple-600'>D</span>Evants</Link>
   </div>
   <div class="flex-none">
     <ul class="menu menu-horizontal px-1 lg:flex hidden">
@@ -56,6 +57,7 @@ const BottomNav = () => {
       <li><Link to='/services'>services</Link></li>
       <li><Link to='/about'>About</Link></li>
       <li><Link to='/events'>Events</Link></li>
+      <li><Link to='/events'>Dashbord</Link></li>
       <li tabindex="0">
         <Link to=''>
          News

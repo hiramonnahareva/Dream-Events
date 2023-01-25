@@ -8,6 +8,20 @@ import DreamEvents from './DreamEvents';
 import ServiceBlog1 from './ServiceBlog1';
 import ServiceBlog2 from './ServiceBlog2';
 import Services from './Services/Services';
+import ChatBot from 'react-simple-chatbot';
+
+const steps = [
+  {
+    id: '0',
+    message: 'Welcome to react chatbot!',
+    trigger: '1',
+  },
+  {
+    id: '1',
+    message: 'Bye!',
+    end: true,
+  },
+];
 
 
 const Home = () => {
@@ -21,8 +35,6 @@ const Home = () => {
         <ImgGallery/>
         <Gallery/>
         <Brands/>
-        {/* <Featured/> */}
-        {/* <Review/> */}
     </div>
 
     );

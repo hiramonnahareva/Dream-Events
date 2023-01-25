@@ -46,7 +46,7 @@ const Specialists = () => {
     ]
     return (
         <div className='container px-8 lg:px-36 mt-32'>
-            <h2 className='text-center text-4xl font-semibold'>The <span className='text-purple-600'>Event Management</span> Specialists</h2>
+            <h2 className='text-center text-4xl font-semibold'>The <span className='text-purple-600'>Event Management</span> Specialities</h2>
             <h4 className='text-center text-xl my-8'>From Wedding Functions to Birthday Parties or Corporate Events to Musical Functions, We <br /> offer full range of Events Management Services that scale to your needs & budget.</h4>
            <div className='grid lg:grid-cols-3'>
            {
