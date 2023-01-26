@@ -12,49 +12,49 @@ import image7 from '../../Images/ServiceImages/social-service-4.jpg';
 const ImgGallery = () => {
     const imgData = [
         {
-            _id: 1,
+            _id: 30,
             img: image1,
             title: 'Wedding Events',
             tag: 'Wedding',
         },
         {
-            _id: 2,
+            _id: 31,
             img: image2,
             title: 'Social Meetings',
             tag: 'Social',
         },
         {
-            _id: 3,
+            _id: 32,
             img: image3,
             title: 'Wedding Events',
             tag: 'Wedding',
         },
         {
-            _id: 4,
+            _id: 33,
             img: image4,
             title: 'Birthday Parties',
             tag: 'Birthday',
         },
         {
-            _id: 5,
+            _id: 34,
             img: image5,
             title: 'Wedding Events',
             tag: 'Wedding',
         },
         {
-            _id: 6,
+            _id: 35,
             img: image6,
             title: 'Social Meetings',
             tag: 'Social',
         },
         {
-            _id: 7,
+            _id: 35,
             img: image7,
             title: 'Wedding Events',
             tag: 'Wedding',
         },
         {
-            _id: 8,
+            _id: 37,
             img: image8,
             title: 'Birthday Parties',
             tag: 'Birthday',

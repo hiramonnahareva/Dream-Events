@@ -1,5 +1,4 @@
 import React from 'react';
-import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import logo from '../../../Images/logo-1.jpg';
 import logo1 from '../../../Images/logo-2.jpg';

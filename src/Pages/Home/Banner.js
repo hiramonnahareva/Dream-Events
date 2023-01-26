@@ -28,7 +28,7 @@ const Banner = () => {
 
   const data = [
    {
-     _id: 1,
+     _id: 10,
      img: image,
     subTitle: "Birthday Event Management Specialists",
     title: "CELEBRATE YOUR EVENTSTHAT LASTS LONGER",
@@ -36,14 +36,14 @@ const Banner = () => {
     btn2: "Read more",
   },
    {
-     _id: 2,
+     _id: 11,
      img: image1,
     subTitle: "We are the Event Management Specialists",
     title: "WE PERSONALIZE YOUR WEDDING EVENTS",
     btn1: "Our Future",
   },
    {
-     _id: 3,
+     _id: 12,
      img: image2,
     subTitle: "Birthday Event Management Specialists",
     title: "CELEBRATE YOUR EVENTSTHAT LASTS LONGER",
@@ -52,7 +52,7 @@ const Banner = () => {
     
   },
    {
-     _id: 4,
+     _id: 13,
      img: image3,
     subTitle: "We are the Event Management Specialists",
     title: "WE PERSONALIZE YOUR WEDDING EVENTS",
@@ -80,7 +80,8 @@ const Banner = () => {
           className="mySwiper"
         >
          {
-         data.map(({img, subTitle, title, btn1,btn2 }) => 
+         data.map(({_id, img, subTitle, title, btn1,btn2 }) => 
+         <div key={_id}>
           <SwiperSlide>
             <img className='relative' src={img} />
             <div data-aos="fade-right" className='absolute lg:top-44 top-10'> 
@@ -100,6 +101,7 @@ const Banner = () => {
             </div>
 
           </SwiperSlide>
+          </div>
           )}
           
         </Swiper>

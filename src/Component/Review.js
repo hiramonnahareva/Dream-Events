@@ -1,9 +1,7 @@
 import React from 'react';
-import { Autoplay, EffectFade, Mousewheel, Navigation, Pagination } from 'swiper';
+import {  Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import banner from '../Images/ServiceImages/banner.png';
-
-import VarticalSlider from "./VarticalSlider";
 
 const data = [
     {
