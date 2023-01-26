@@ -27,7 +27,7 @@ const Counter = () => {
                
                 
                     
-                { countData.map(data => <div className='mx-4 my-4 px-16 py-10'>
+                { countData.map(data => <div key={data.id} className='mx-4 my-4 px-16 py-10'>
                      <h1 className='text-3xl text-center' >
                    {
                        counterOn &&  <CountUp start={data.start} end={data.endData} duration={2} delay={0} />

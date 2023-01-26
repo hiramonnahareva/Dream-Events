@@ -35,6 +35,9 @@ const Home = () => {
         <ImgGallery/>
         <Gallery/>
         <Brands/>
+        <ChatBot steps={steps} />
+        {/* <Featured/> */}
+        {/* <Review/> */}
     </div>
 
     );

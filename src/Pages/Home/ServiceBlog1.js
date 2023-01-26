@@ -28,7 +28,7 @@ const ServiceBlog1 = () => {
                 <p className='mb-5  pr-32'>An event description is copy that aims to tell your potential attendees what will be happening at the event, who will be speaking, and what they will get out of attending. Good event descriptions can drive attendance to events and also lead to more media coverage.</p>
                 {
                     list.map(item => 
-                        <div className="flex mt-4 gap-2 items-center">
+                        <div key={item.id} className="flex mt-4 gap-2 items-center">
                 <HiArrowRightOnRectangle className='text-primary'/>
                 <span>{item.text}</span>
                 </div>

@@ -27,7 +27,7 @@ const Skills = () => {
                 <p className='mb-5 font-medium text-gray-700 text-[17px]'>Consectetur elit sed do eiusmod tempor incididunt ut labore et dolore <br /> magna aliquled enim ad minim veniam quis nostrud exercitation <br /> ullamco laboris nisi ut aliquip volputate consequat  aute irure dolor in <br /> reprehenderit in velit..</p>
                 {
                     list.map(item => 
-                        <div className="flex mt-4 gap-2 items-center">
+                        <div key={item.id} className="flex mt-4 gap-2 items-center">
                 <HiArrowRightOnRectangle className='text-primary'/>
                 <span>{item.text}</span>
                 </div>
