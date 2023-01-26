@@ -37,15 +37,17 @@ const Brands = () => {
         <div className="px-8 lg:px-36 mt-32">
         <div className=" max p-4 space-x-4">
   <div className="flex">
-  <Swiper slidesPerView={3} slidesPerColumn={2} spaceBetween={30} pagination={{
+  <Swiper slidesPerView={3} slidespercolumn={2} spaceBetween={30} pagination={{
   "clickable": true
 }} className="mySwiper">
  
     {
       image.map(item => 
-        <SwiperSlide>
+          <div key={item._id}>
+        <SwiperSlide >
         <img src={item.image} className="mx-12" />
       </SwiperSlide> 
+        </div>
         )
       }
       </Swiper>

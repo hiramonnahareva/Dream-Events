@@ -66,18 +66,14 @@ const ImgGallery = () => {
         console.log(allimgData)
        if(tag === 'Birthday'){
          const filterimgData = imgData.filter(item => item.tag === 'Birthday');
-         console.log(filterimgData);
          setAllimgData(filterimgData)
         }
-        console.log(allimgData)
         if(tag === 'Wedding'){
             const filterimgData = imgData.filter(item => item.tag === 'Wedding');
-            console.log(filterimgData);
             setAllimgData(filterimgData)
            }
            if(tag === 'Social'){
             const filterimgData = imgData.filter(item => item.tag === 'Social');
-            console.log(filterimgData);
             setAllimgData(filterimgData)
            }
     }, [tag])

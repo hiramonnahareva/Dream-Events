@@ -14,7 +14,7 @@ const SocialLogin = () => {
         navigate(from, { replace: true })
     }
     if (googleLoading || githubLoading) {
-        <progress class="progress w-56"></progress>
+        <progress className="progress w-56"></progress>
     }
     console.log(googleUser);
 

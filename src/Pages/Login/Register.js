@@ -34,18 +34,18 @@ const Register = () => {
     console.log(user);
 
     if (loading || updating) {
-        <progress class="progress w-56"></progress>
+        <progress className="progress w-56"></progress>
     }
 
     return (
         <div >
-            <div class="hero">
-                <div class="hero-content flex-col lg:flex-row-reverse">
-                    <div class="text-center lg:text-left">
-                        <img src={registerImg} alt='Register' class="max-w-sm " />
+            <div className="hero">
+                <div className="hero-content flex-col lg:flex-row-reverse">
+                    <div className="text-center lg:text-left">
+                        <img src={registerImg} alt='Register' className="max-w-sm " />
                     </div>
-                    <div class="card flex-shrink-0 w-full max-w-sm bg-base-100">
-                        <div class="card-body">
+                    <div className="card flex-shrink-0 w-full max-w-sm bg-base-100">
+                        <div className="card-body">
                             <h2 className="text-center text-3xl font-bold text-blue-700">Please Register</h2>
                             <form onSubmit={handleSubmit(onSubmit)}>
                                 {/* ------Name------ */}

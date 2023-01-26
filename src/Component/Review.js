@@ -54,12 +54,14 @@ const Review = () => {
       >
         {
           data.map(({_id, title, review}) => 
+          <div key={_id}>
         <SwiperSlide>
-           <div height={100} key={_id}>
+           <div height={100}>
              <h2 className='text-3xl text-center text-white'>{title}</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem excepturi provident dolore tempora adipisci earum, et nihil nisi ipsam minima mollitia obcaecati aperiam perferendis, qui ab repellat minus, voluptatibus eaque.</p>
            </div>
           </SwiperSlide>
+          </div>
            )
           }
       </Swiper>

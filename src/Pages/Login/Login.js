@@ -17,7 +17,7 @@ const Login = () => {
     let location = useLocation();
     let from = location.state?.from?.pathname || "/";
     if (loading) {
-        <progress class="progress w-56"></progress>
+        <progress className="progress w-56"></progress>
     }
     const onSubmit = async (data) => {
         await signInWithEmailAndPassword(data.email, data.password);
@@ -27,13 +27,13 @@ const Login = () => {
 
     return (
         <div >
-            <div class="hero">
-                <div class="hero-content flex-col lg:flex-row-reverse">
-                    <div class="text-center lg:text-left">
-                        <img src={loginImg} alt='Register' class="max-w-sm " />
+            <div className="hero">
+                <div className="hero-content flex-col lg:flex-row-reverse">
+                    <div className="text-center lg:text-left">
+                        <img src={loginImg} alt='Register' className="max-w-sm " />
                     </div>
-                    <div class="card flex-shrink-0 w-full max-w-sm bg-base-100">
-                        <div class="card-body">
+                    <div className="card flex-shrink-0 w-full max-w-sm bg-base-100">
+                        <div className="card-body">
                             <h2 className="text-center text-3xl font-bold text-blue-700">Please Login</h2>
                             <form onSubmit={handleSubmit(onSubmit)}>
                                 {/* ------Email------ */}
