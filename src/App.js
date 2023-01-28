@@ -14,6 +14,7 @@ import Contact from './Pages/Contact/Contact';
 import Events from './Pages/Events/Events';
 import Register from './Pages/Login/Register';
 import Login from './Pages/Login/Login';
+import Dashboard from './Pages/Dashboard/Dashboard';
 
 function App() {
   return (
@@ -26,9 +27,10 @@ function App() {
         <Route path='/about' element={<About/>}></Route>
         <Route path='/contact' element={<Contact/>}></Route>
         <Route path='/events' element={<Events/>}></Route>
-
+        <Route path='/dashboard' element={<Dashboard/>}></Route>
         {/* <Route path='/register' element={<Register />}></Route>
         <Route path='/login' element={<Login/>}></Route> */}
+
 
         <Route path="*" element={<NotFound />} />
       </Routes>
