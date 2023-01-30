@@ -85,9 +85,9 @@ const Banner = () => {
           <SwiperSlide>
             <img className='relative' src={img} />
             <div data-aos="fade-right" className='absolute lg:top-44 top-10'> 
-            <div className='text-center mx-60'>
-            <i className='text-[18px] text-white'>{subTitle}</i>
-            <h2 className='text-6xl mt-6 font-bold text-white'>{title}</h2>
+            <div className='text-center lg:mx-60 ml-10'>
+            <i className='lg:text-[18px] text-white'>{subTitle}</i>
+            <h2 className='lg:text-6xl mt-6 font-bold text-white'>{title}</h2>
             <div className='flex justify-center mt-5'>
             <div className=' border-l-4 h-8 mb-4 border-purple-600'></div>
             </div>

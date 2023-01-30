@@ -87,15 +87,15 @@ const ImgGallery = () => {
                             <button className={`button text-[18px] pb-2 text-primary ${tag === 'Birthday' ? 'border-b-2 border-primary' : ''}`} onClick={()=> setTag('Birthday')}>Birthday Events</button>
                             <button className={`button text-[18px] pb-2 text-primary ${tag === 'Social' ? 'border-b-2 border-primary' : ''}`} onClick={()=> setTag('Social')}>Social Events</button>
                         </div>
-                        <div className=" grid gap-[1px] lg:grid-cols-4 grid-cols-2">
+                        <div className=" grid gap-[1px] lg:grid-cols-4 md:grid-cols-2 grid-cols-1">
                         {
                             allimgData.map(item => (
                                 <div key={item._id} className='relative'>
                                     <div className='absolute top-0'>
 
-                                    <div className={`hover:bg-gray-900/80 transition-all hover:block lg:w-[315px] w-[100%] h-[210px] text-black/0 hover:text-white bg-center bg-cover`}>
+                                    <div className={`hover:bg-gray-900/80 transition-all hover:block lg:w-[315px] w-full h-full text-black/0 hover:text-white bg-center bg-cover`}>
                                     <h2 className='lg:w-[315px] absolute top-10 left-10 text-[18px] font-bold'>{item.title}</h2>
-                                    <p className='absolute top-16 left-10'>Lorem ipsum dolor sit amet.</p>
+                                    <p className='absolute top-16 left-10 '>Lorem ipsum dolor sit amet.</p>
                                     <span><FaSearchPlus className='hover:text-primary text-2xl absolute bottom-10 right-10' /></span>
                                     </div>
                                     <div>

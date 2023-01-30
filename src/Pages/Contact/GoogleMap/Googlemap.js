@@ -4,7 +4,8 @@ const Googlemap = () => {
     return (
         <div className="my-32 flex mx-40 gap-10">
            <div className='flex-1'>
-            <h2 className="flex items-center text-xl font-bold"><div className='border-t-[4px] w-7 mr-4 border-purple-600'></div> MESSAGE FORM</h2>
+            <h2 className="flex items-center text-xl font-bold mb-4">
+                <div className='border-t-[4px] w-7 mr-4 border-purple-600'></div> MESSAGE FORM</h2>
                 <div className='flex gap-4'>
                 <input className='w-full border-b-[1px] italic border-gray-300 py-5 my-4 focus-within:shadow-lg focus:outline-none focus:ring focus:border-blue-500' type="text" placeholder='Eneter Your Name' />
                 <input className='w-full border-b-[1px] italic border-gray-300 py-5 my-4 focus-within:shadow-lg focus:outline-none focus:ring focus:border-blue-500' type="email" placeholder='Eneter Your Email' name="" id="" />
