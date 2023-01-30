@@ -16,8 +16,8 @@ const Googlemap = () => {
                 <input className='w-full border-2 bg-primary px-8 py-3 rounded-full uppercase text-white' type="submit" value="Send Comment" />
            </div>
             <div className='flex-1'>
-                <div height={500} width={600} class="relative text-center ">
-                    <div height={500} width={600} class="">
+                <div height={500} width={600} className="relative text-center ">
+                    <div height={500} width={600} className="">
                         <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=dhaka,&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
                         </iframe>
                     </div>
