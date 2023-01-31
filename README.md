@@ -10,5 +10,5 @@ Home1, Home2, Services, About, Events, Contact, Blog1, Blog2, NotFound.
 
 ### Technologies
 
-Tailwind, DaisyUi , React js, Swiper Slider, React Icons, Firebase for authentication, Google Map.
+Tailwind, DaisyUi , React js, Swiper Slider, React Icons, Firebase for authentication, Google Map, aos for animation.
 
