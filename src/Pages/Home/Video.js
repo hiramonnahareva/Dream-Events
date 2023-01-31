@@ -3,7 +3,7 @@ import BigBtn from '../../Component/BigBtn';
 
 const Vedio = () => {
     return (
-        <div className="mx-20 mt-20 flex gap-16 items-center">
+        <div className="mx-20 mt-20 lg:flex gap-16 items-center">
             <div className='flex-1'>
             <h2 className='text-4xl font-semibold mb-4'>We <span className='text-purple-600'>Create Events</span> That Lasts</h2>
         <p className='text-gray-600 mb-6 mr-16'>From Wedding Functions to Birthday Parties or Corporate Events to Musical Functions, We offer full range of Events Management Services that scale to your needs & budget.</p>
