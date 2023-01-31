@@ -9,6 +9,7 @@ import ServiceBlog1 from './ServiceBlog1';
 import ServiceBlog2 from './ServiceBlog2';
 import Services from './Services/Services';
 import ChatBot from 'react-simple-chatbot';
+import Vedio from './Video';
 
 const steps = [
   {
@@ -34,10 +35,11 @@ const Home = () => {
         <Services/>
         <ImgGallery/>
         <Gallery/>
+        <Vedio/>
         <Brands/>
         {/* <ChatBot steps={steps} /> */}
-        {/* <Featured/> */}
         {/* <Review/> */}
+
     </div>
 
     );
