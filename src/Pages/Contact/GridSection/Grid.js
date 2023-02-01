@@ -3,6 +3,7 @@ const Grid = ({item}) => {
         const {img, bg, title, address, icon} = item;
     return (
         <div>
+            {/* ------------ single Grid -------------- */}
             <div  style={{
             backgroundImage: `url(${img})`,
           }} className={`rounded-tl-3xl sticky rounded-br-3xl top-0 bg-scroll h-[150px] bg-center bg-primary bg-cover`}>

@@ -5,6 +5,7 @@ const SingleEvent = ({service}) => {
     const {img2, title} = service;
     return (
       <div className="mx-4">
+        {/* ----------------- Single Event ---------------- */}
      <img src={img2} className="h-60" />
         <div className="flex justify-center mt-[-6%]">
           <div className='border-l-4 h-12 border-purple-600'></div>

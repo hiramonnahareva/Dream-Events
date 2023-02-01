@@ -3,6 +3,7 @@ import React from 'react';
 const Googlemap = () => {
     return (
         <div className="my-32 flex mx-40 gap-10">
+            {/* ---------- contact form -------------- */}
            <div className='flex-1'>
             <h2 className="flex items-center text-xl font-bold mb-4">
                 <div className='border-t-[4px] w-7 mr-4 border-purple-600'></div> MESSAGE FORM</h2>
@@ -17,6 +18,7 @@ const Googlemap = () => {
                 <textarea className='w-full border-b-[1px] italic border-gray-300 py-5 my-4 focus-within:shadow-lg focus:outline-none focus:ring focus:border-blue-500' type="text" placeholder='Your Message...' name="" id="" cols="30" rows="5"></textarea>
                 <input className='w-full border-2 bg-primary px-8 py-3 rounded-full uppercase text-white' type="submit" value="Send Comment" />
            </div>
+           {/* ----------- google map --------- */}
             <div className='flex-1'>
                 <div height={500} width={600} className="relative text-center ">
                     <div height={500} width={600} className="">
