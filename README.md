@@ -1,6 +1,8 @@
 ### Dream_Event_Management
 - Live Project Link: https://glistening-sawine-b56580.netlify.app/
 
+## [Short video](https://drive.google.com/file/d/1Nnpi2lcxrCMQAITkaasy7ZcTCMCt1hwU/view?usp=sharing)
+
 ### Description
 
 Event Management is the process of analyzing, planning, marketing, producing and evaluating an event. It is a different way of promoting a product, service or idea. If an event is managed efficiently and effectively, it can be used as a very powerful promotional tool to launch or market a product or service.
