@@ -10,6 +10,8 @@ import ServiceBlog2 from './ServiceBlog2';
 import Services from './Services/Services';
 import ChatBot from 'react-simple-chatbot';
 import Vedio from './Video';
+import RatingSystem from '../../Component/Review';
+import Chat from '../../Component/Chat';
 
 const steps = [
   {
@@ -36,9 +38,10 @@ const Home = () => {
         <ImgGallery/>
         <Gallery/>
         <Vedio/>
+        <Review/>
         <Brands/>
-        {/* <ChatBot steps={steps} /> */}
-        {/* <Review/> */}
+        <Chat/>
+
 
     </div>
 
