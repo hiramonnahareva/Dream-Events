@@ -10,7 +10,7 @@ const Vedio = () => {
         <BigBtn title="CONTECT US NOW" link={'/contact'}/>
             </div>
             <div className="flex-1">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/dVlBA92IKQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe height={300} className='lg:w-full w-50' src="https://www.youtube.com/embed/dVlBA92IKQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
     );

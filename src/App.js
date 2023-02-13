@@ -15,6 +15,7 @@ import Events from './Pages/Events/Events';
 import Register from './Pages/Login/Register';
 import Login from './Pages/Login/Login';
 import Dashboard from './Pages/Dashboard/Dashboard';
+import Chat from './Component/Chat';
 
 function App() {
   return (
@@ -34,6 +35,8 @@ function App() {
 
         <Route path="*" element={<NotFound />} />
       </Routes>
+      
+      <Chat/>
       <Footer/>
     </div>
   );

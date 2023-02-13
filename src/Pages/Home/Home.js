@@ -40,7 +40,6 @@ const Home = () => {
         <Vedio/>
         <Review/>
         <Brands/>
-        <Chat/>
 
 
     </div>

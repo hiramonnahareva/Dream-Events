@@ -27,7 +27,7 @@ const Gallery = () => {
   ]
     return (
       <div className=''>
-        <div className='lg:flex gap-[60px] text-xl font-semibold text-gray-700 my-20 justify-center items-center'><span className='mb-4'>
+        <div className='lg:flex hidden gap-[60px] text-xl font-semibold text-gray-700 my-20 justify-center items-center'><span className='mb-4'>
         See Our Full Gallery of Events!
         </span>
         <BigBtn title='View Full Gallery'/>

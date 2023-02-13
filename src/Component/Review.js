@@ -26,10 +26,10 @@ const Review = () => {
     ]
     return (
         <div className="px-8 lg:px-36 mt-32">
-        <h1 className='text-white text-2xl mb-3 lg:text-4xl font-bold'>Reviews</h1>
+        <h1 className='text-white text-center text-2xl mb-3 lg:text-4xl font-bold'>Reviews</h1>
             <div className=" max p-4 space-x-4">
 
-                <div className="flex items-center justify-evenly gap-20">
+                <div className="lg:flex items-center justify-evenly gap-20">
                     {
                         data.map(item =>
                             <div key={item._id}>
