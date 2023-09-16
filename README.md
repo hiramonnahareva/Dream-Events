@@ -1,4 +1,4 @@
-### [Dream_Event_Management](Live Project Link: https://glistening-sawine-b56580.netlify.app/)
+### [Dream Event Management](https://glistening-sawine-b56580.netlify.app/)
 
 ## [Short video](https://drive.google.com/file/d/1Nnpi2lcxrCMQAITkaasy7ZcTCMCt1hwU/view?usp=sharing)
 
