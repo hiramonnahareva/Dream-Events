@@ -3,7 +3,6 @@ import image from '../../Images/bgpattern1.jpg';
 import BigBtn from '../BigBtn';
 import GalleryBg from './GalleryBg';
 
-
 const Gallery = () => {
   const data = [
     {
@@ -32,8 +31,6 @@ const Gallery = () => {
         </span>
         <BigBtn title='View Full Gallery'/>
         </div>
-        
-      
             <div className="my-10">
               <div className='lg:grid grid-cols-2 gap-10 mx-10 rounded-tr-lg rounded-bl-lg'>
              {
